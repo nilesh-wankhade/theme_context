@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Avenir LT Std 35", sans-serif;
+}
+
+@font-face {
+    font-family: "Avenir LT Std 35";
+    src: url("fonts/AvenirLTStd-Light.eot");
+    src: url("fonts/AvenirLTStd-Light.eot?#iefix") format("embedded-opentype"),
+      url("fonts/AvenirLTStd-Light.woff2") format("woff2"),
+      url("fonts/AvenirLTStd-Light.woff") format("woff"),
+      url("fonts/AvenirLTStd-Light.ttf") format("truetype"),
+      url("fonts/AvenirLTStd-Light.svg#AvenirLTStd-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+:root {
+	--d-blue: #2458FF;  
+  --d-neon: #c0dde9;  
+  --grey: #474747;
+  --border: #d3d3d3 !important;
+  --red : #d92629;
+  --l-orange: #ffb868; 
+  --golden:#dfc059;
+  --r-blue: rgb(4,4,47);
+  --brown : rgb(155,25,24);
+  --aqua: #07727c;
+  --aqua-light:#adc3d6;
+}
+
+[data-theme = 'light']{
+    background-color: white;
+    color: black;
+}
+
+[data-theme = 'dark']{
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: "Avenir LT Std 35", sans-serif;
+    color: #000;
+    overflow-x: hidden;
+    font-size: 14px;
+  }
